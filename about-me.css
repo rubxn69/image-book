@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.profile-menu:hover .dropdown-content {
+    display: block;
+}
+
+/* About Me Section */
+#about-me {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px; /* Smaller width */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 50%;
+    border: 5px solid #333; /* Round border */
+    object-fit: cover;
+}
+
+.personal-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.personal-info p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
